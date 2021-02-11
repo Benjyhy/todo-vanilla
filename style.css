@@ -115,6 +115,7 @@ select{
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
+    background: white;
 }
 
 .select::after{
