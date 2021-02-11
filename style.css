@@ -132,3 +132,50 @@ select{
     background: white;
     color: #454866;
 }
+
+@media screen and (max-width: 700px){
+    form{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    form input, form button{
+        padding: .3rem;
+        font-size: 1.5rem;
+    }
+    .todo-list{
+        min-width: 80%;
+    }
+    .todo-input{
+        width: 78%;
+    }
+    .todo-button{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 1.3rem;
+        width: 80%;
+        text-align: center;
+    }    
+    form input, form button{
+        font-size: 1.2rem;
+    }
+    .trashButton, .completedButton{
+        font-size: .7rem;
+    }
+    .todo{
+        font-size: 1.3rem;
+    }
+    select{
+        padding: .6rem;
+    }
+    .select::after{
+        top: -25%;
+    }
+}
